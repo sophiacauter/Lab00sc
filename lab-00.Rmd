@@ -20,12 +20,12 @@ team_data <- tibble(
   name = c("alba", "tarana", "may", 
            "ada", "arshpreet"),
   github_username = c("alba2728", "taranaedwards", "username 2", 
-                      "username 3", "username 4"), 
+                      "mayuco168", "username 4"), 
   colour = c("springgreen2", "steelblue1", "peachpuff1", 
              "whitesmoke", "mediumorchid3"),
   hobby = c("mathsoc netball", "napping", "reading", 
             "guitar", "art"),
-  favourite_number = c(2, 3, 5, NA, NA)
+  favourite_number = c(2, 3, 5, 7, 8)
   )
 
 team_data
@@ -47,19 +47,20 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+It shows the data entered above about my teams favourite number, colour and username
+
 
 ### Exercises 19
 
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "Favourite Number", 
+          y = "additional info",
+          title = "Team Info")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+the command adds labels to the diagram that is plotted
 
 ### Exercise 20
 
@@ -69,4 +70,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+It is likely that there would be lots of different hobbies and each one would take up a large bar on the screen while the actual hobbies would be a lot smaller. There is also no need for decimal points on the table as it is only possible for discrete data. Maybe a list with a larger scale and just lines rather than large bars so it is easier to read through the different hobbies.
