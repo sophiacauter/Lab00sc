@@ -60,7 +60,7 @@ p1 + labs(x = "Favourite Number",
           title = "Team Info")
 ```
 
-the command adds labels to the diagram that is plotted
+the command adds labels to the diagram that is plottedd
 
 ### Exercise 20
 
